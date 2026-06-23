@@ -1,0 +1,50 @@
+A) Write the full form and one-line use of: HTTP, HTTPS, FTP, SMTP.
+
+       -> HTTP (Hyper Text Transfer Protocol): HTTP is a protocol used to transfer web pages and other data between a  
+             web browser and a web server on the Internet.
+       -> HTTPS (Hyper Text Transfer Protocol Secure): HTTPS is a secure version of HTTP that encrypts data during
+             transmission, making online communication safer and protecting sensitive information.
+       -> FTP (File Transfer Protocol): FTP is a protocol used to transfer files between computers over a network, 
+             allowing users to upload and download files.
+       -> SMTP (Simple Mail Transfer Protocol): SMTP is a protocol used for sending emails from an email client to a 
+             mail server and between mail servers.
+
+B) What is the difference between IPv4 and IPv6? Answer in 2 lines.
+
+         -> IPv4 uses a 32-bit address format (e.g., 192.168.1.1) and provides about 4.3 billion unique addresses.
+	 -> IPv6 uses a 128-bit address format (e.g., 2001:db8::1) and provides a vastly larger number of unique
+            addresses with improved network efficiency and security. 
+
+C) Run nslookup google.com on your system and write down the IP address you get.
+
+     -> I can’t actually run nslookup on my own system. If your assignment requires it, run this command on your 
+       computer:
+       
+      nslookup google.com
+
+      You will get one or more IP addresses, for example:
+
+       Name:    google.com
+       Address: 142.250.193.78
+
+	The exact IP address may be different because Google uses multiple servers and your result depends on your
+        location and DNS server. Copy the IP address shown on your system and write it in your answer.
+
+D) What do these HTTP status codes mean: 200, 301, 404, 500, 403?
+
+ 	-> 200 OK – The request was successful, and the server returned the requested resource.
+	-> 301 Moved Permanently – The requested page has been permanently moved to a new URL.
+	-> 404 Not Found – The server could not find the requested page or resource.
+	-> 500 Internal Server Error – The server encountered an unexpected error and could not complete the request.
+	-> 403 Forbidden – Access to the requested resource is denied, even though the server understood the request.
+
+E) Explain DNS hierarchy (root, TLD, domain, subdomain) with www.google.com as an example.
+
+	-> DNS (Domain Name System) is organized in a hierarchy of levels. Using www.google.com as an example:
+
+	-> Root (.) – The highest level in the DNS hierarchy. It is represented by a dot (.) at the end of a domain 	name, usually hidden. Example: www.google.com.
+	-> TLD (Top-Level Domain) – The last part of the domain name. In www.google.com, .com is the TLD.
+	-> Domain – The registered name under the TLD. In www.google.com, google is the domain name.
+	-> Subdomain – A subdivision of the main domain. In www.google.com, www is the subdomain.
+
+	Thus, the hierarchy is: Root (.) → com (TLD) → google (Domain) → www (Subdomain).
