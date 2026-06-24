@@ -1,0 +1,65 @@
+A) Write the Git command for each: initialize a repo, stage all files, commit with a message, push to remote, pull latest changes.
+      
+     	1.git init
+	2.git add -A
+	3.git status
+	4.git commit -m "First Commit"
+	5.git remote add origin https://github.com/bhomeshwariba/SE_Workspace
+	6.git push origin master
+
+
+B) What is the difference between git fetch and git pull? Answer in 2 lines.
+
+ 	-> git fetch downloads the latest changes from the remote repository but does not merge them into your current branch.
+
+	-> git pull downloads the changes and automatically merges (or rebases, depending on configuration) them into your current branch.
+
+C) Create a new GitHub repository, push any small text file from your local system, and share the repo link.
+
+       	# Create a new folder
+ 	mkdir demo-repo
+	cd demo-repo
+
+	# Create a small text file
+	echo "Hello from GitHub" > hello.txt
+
+	# Initialize Git
+	git init
+	git add hello.txt
+	git commit -m "Initial commit"
+
+	# Create a new repository on GitHub first,
+	# then connect it (replace with your repo URL)
+	git remote add origin https://github.com/<your-username>/<repo-name>.git
+
+	git branch -M main
+	git push -u origin main
+	
+	After the push completes, your repository link will be:
+
+	https://github.com/<your-username>/<repo-name>
+
+D) What is the difference between a Fork and a Pull Request? Answer in 2 lines.
+
+	-> A fork is a copy of a repository under your own GitHub account that you can freely modify.
+	-> A pull request is a proposal to merge your changes from a branch or fork into the original repository.
+
+E) Create a new branch named feature-test, make one commit on it, and merge it back to the main branch. Write the commands you used.
+
+	# create and switch to new branch
+	git checkout -b feature-test
+
+	# make a change and commit (example)
+	echo "test change" > test.txt
+	git add test.txt
+	git commit -m "Add test change on feature-test"
+
+	# switch back to main branch
+	git checkout main
+
+	# merge feature-test into main
+	git merge feature-test
+
+	-> If you also want to push it to GitHub:
+
+	git push origin main
