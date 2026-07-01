@@ -1,0 +1,34 @@
+(A) Write a short paragraph in your own words defining what a 'program' is and give one real-life example from any app you use daily (like Instagram, Zomato, or Paytm).
+
+   ->  A program is a set of instructions written by a programmer that tells a computer or mobile device what to do to complete a specific task. It helps software 		  perform actions automatically and correctly based on the user's input. For example, when I use **Instagram**, the program decides which posts and reels to 
+	  show in my feed based on my interests and the accounts I follow. This makes the app more personalized and useful.
+
+
+(B) List three popular programming languages you have heard of, and for each, mention whether it is usually compiled, interpreted, or can be both.<br><br><em><strong>        	Hint:</strong> Think of languages like Java, Python, and JavaScript.</em>
+	
+   -> Programming languages such as Java, Python, and JavaScript are widely used for developing software and applications. Java is usually considered both compiled and 	interpreted because it is first compiled into bytecode and then executed by the Java Virtual Machine (JVM). Python is generally an interpreted language, as its code 	is executed by a Python interpreter. JavaScript is also mainly an interpreted language, although modern JavaScript engines use Just-In-Time (JIT) compilation, so in 	practice it can be considered both interpreted and compiled.
+
+(C) Draw a flowchart (on paper or using any online tool) for the process of booking a movie ticket on BookMyShow, starting from opening the app to receiving the booking 	confirmation.
+
+    -> Upload in github
+
+
+
+
+
+
+
+(D) Write down the steps (as an algorithm, using simple numbered instructions) for ordering food on Swiggy — from opening the app to completing payment.
+
+    -> 1. Start.
+       2. Open the Swiggy app.
+       3. Log in to your account (if required).
+       4. Select your delivery location.
+       5. Choose a restaurant.
+       6. Select the food items you want to order.
+       7. Add the items to your cart.
+       8. Review your order and proceed to checkout.
+       9. Choose a payment method.
+      10. Complete the payment.
+      11. Receive the order confirmation.
+      12. End.
