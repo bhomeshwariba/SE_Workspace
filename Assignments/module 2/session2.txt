@@ -1,0 +1,40 @@
+(A) Install GCC on your computer and verify the installation by running gcc --version in your terminal or command prompt.
+
+	-> gcc --version
+	   gcc (MinGW.org GCC-6.3.0-1) 6.3.0
+	   Copyright (C) 2016 Free Software Foundation, Inc.
+	   This is free software; see the source for copying conditions.  There is NO
+	   warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+(B) Open VS Code or DevC++ and create a new file named hello.c. Write a C program that prints 'Hello, Instagram World!' to the console.
+
+     -> #include<stdio.h>
+	#include<conio.h>
+	void main()
+	{
+   	   printf("\n Hello, Instagram World");
+           getch();
+	}
+
+
+(c) Identify and label the header, main function, and return statement in your hello.c program using comments.
+
+
+->      #include<stdio.h>// Header: Includes the standard input/output library
+	#include<conio.h>
+	void main()// Main function
+
+	{
+   	   printf("\n Hello, Instagram World");// Displays program
+           getch();// Program terminates here
+
+	}
+
+
+(D) Compile your hello.c file using the GCC command line (gcc hello.c -o hello) and run the output file to display the message in your terminal.<br><br><em><strong>Hint:</strong> On Windows,    	the output file will be hello.exe; on Linux/Mac, it will be hello.</em>
+
+
+   ->  gcc hello.c -o hello
+	hello.c:1:1: error: expected '=', ',', ';', 'asm' or '__attribute__' at end of input
+	output:- hello
