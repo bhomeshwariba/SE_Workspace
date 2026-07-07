@@ -1,0 +1,133 @@
+(A) Create a simple IPL Fan Bot that takes your favorite IPL team name as input and uses if-else-if statements to print a unique cheer message for each team (e.g., 'Go Mumbai Indians!', 'Chennai Super Kings for the win!'). If the team is not recognized, print 'Team not found!'
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+        char team;
+        
+        printf("Enter Your Fav. Team : \n Press M for Mumbai Indians \n Press C for Chennai Super Kings  \n Press R for Royal ");
+        scanf("%c",&team);
+
+        if(team=='M')
+        {
+            printf("Go Mumbai Indians!");
+        }
+         else if(team=='C')
+        {
+            printf("Chennai Super Kings for the win!");
+        }
+         else if(team=='R')
+        {
+            printf("Rock Here");
+        }
+        else
+        {
+            printf("Sorry team name not found");
+        }
+    
+    getch();
+}
+
+(B) Build a Zomato-style food suggestion tool: take the user's preferred meal time ('breakfast', 'lunch', 'dinner', or 'snack') and use a switch-case statement to suggest a popular dish for that time. If the input doesn't match any meal, suggest 'Try some fruits!'.
+
+->
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    char meal[] = "l";   // change this value to test
+
+    switch (meal[0])
+    {
+        case 'b':
+            printf("Suggested dish: Poha / Paratha / Idli\n");
+            break;
+
+        case 'l':
+            printf("Suggested dish: Rajma Chawal / Thali / Biryani\n");
+            break;
+
+        case 'd':
+            printf("Suggested dish: Roti Sabzi / Paneer / Khichdi\n");
+            break;
+
+        case 's':
+            printf("Suggested dish: Sandwich / Pakora / Tea & Biscuits\n");
+            break;
+
+        default:
+            printf("Try some fruits!\n");
+    }
+}
+
+(C) Create a Flipkart discount calculator that asks the user for the total cart amount. Use nested if statements to check: if amount > 2000, apply 20% discount; else if amount > 1000, apply 10% discount; else, no discount. Print the final amount to pay.<br><br><em><strong>Hint:</strong> Use nested ifs to check each discount slab.</em>
+
+->
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    float amount = 2500;   // change this value to test
+    float discount = 0, finalAmount;
+
+    if (amount > 2000)
+    {
+        discount = amount * 0.20;
+    }
+    else
+    {
+        if (amount > 1000)
+        {
+            discount = amount * 0.10;
+        }
+        else
+        {
+            discount = 0;
+        }
+    }
+
+    finalAmount = amount - discount;
+
+    printf("Cart Amount: Rs. %.2f\n", amount);
+    printf("Discount: Rs. %.2f\n", discount);
+    printf("Final Amount to Pay: Rs. %.2f\n", finalAmount);
+    
+    getch();
+}
+
+(D) Write a program that takes a user's age and checks eligibility for three things using if-else statements: if age >= 18, print 'Eligible for Driving License'; if age >= 21, also print 'Eligible for Credit Card'; if age >= 25, also print 'Eligible for Car Rental'. Print all applicable messages for the given age.
+
+->
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int age = 24;   // change this value to test
+
+    if (age >= 18)
+    {
+        printf("Eligible for Driving License\n");
+    }
+
+    if (age >= 21)
+    {
+        printf("Eligible for Credit Card\n");
+    }
+
+    if (age >= 25)
+    {
+        printf("Eligible for Car Rental\n");
+    }
+
+    if (age < 18)
+    {
+        printf("Not eligible for any of the above\n");
+    }
+}
