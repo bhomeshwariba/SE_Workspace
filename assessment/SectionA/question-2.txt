@@ -1,0 +1,3 @@
+2) Question: Describe the Git workflow your team should adopt to prevent this from happening
+             again. Name at least two Git commands your team should use as part of this workflow and
+             explain the role of each command.

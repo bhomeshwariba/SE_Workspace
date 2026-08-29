@@ -1,0 +1,17 @@
+1) Question: Which development methodology would you recommend for this project, and why?
+   Identify two specific risks the team would face if they chose the wrong methodology for this
+   context
+
+
+-> Answer:
+
+Recommended Development Methodology: Agile
+
+I would recommend the **Agile methodology** because it allows the team to develop the project in small iterations, get regular feedback from users, and make changes easily when requirements change. It also helps the team find and fix problems early.
+
+### Two risks of choosing the wrong methodology
+
+1. Changing requirements: If the project uses a rigid methodology like Waterfall when requirements are likely to change, making changes later can be costly and time-consuming.
+
+2. Late discovery of problems: A methodology with limited testing and feedback until the end may cause bugs or user-experience problems to be discovered too late, leading to delays and extra          
+   development costs.
